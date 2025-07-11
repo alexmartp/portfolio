@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="home" class="hero-section position-relative">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold text-white mb-4">
+                    Hello, I'm <span class="text-warning">Your Name</span>
+                </h1>
+                <p class="lead text-white mb-4">
+                    Full-Stack Developer & UI/UX Designer passionate about creating beautiful, functional digital experiences.
+                </p>
+                <div class="d-flex gap-3 mb-4">
+                    <a href="#portfolio" class="btn-gradient">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill">Get In Touch</a>
+                </div>
+                <div class="social-links d-flex gap-3">
+                    <a href="#" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/400x400/667eea/ffffff?text=Your+Photo" 
+                            alt="Profile Photo" 
+                            class="img-fluid rounded-circle border border-5 border-white shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title">About Me</h2>
+                <p class="lead mb-4">
+                    I'm a passionate developer with over 5 years of experience in creating web applications 
+                    and mobile solutions. I love turning ideas into reality through clean, efficient code.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center p-4">
+                            <i class="fas fa-code text-primary fs-1 mb-3"></i>
+                            <h5>Frontend Development</h5>
+                            <p class="text-muted">React, Vue.js, Angular, HTML5, CSS3, JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center p-4">
+                            <i class="fas fa-server text-primary fs-1 mb-3"></i>
+                            <h5>Backend Development</h5>
+                            <p class="text-muted">Node.js, Python, Django, PostgreSQL, MongoDB</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center p-4">
+                            <i class="fas fa-mobile-alt text-primary fs-1 mb-3"></i>
+                            <h5>Mobile Development</h5>
+                            <p class="text-muted">React Native, Flutter, iOS, Android</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="section-title">My Portfolio</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200/3b82f6/ffffff?text=Project+1" 
+                            class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Platform</h5>
+                        <p class="card-text">A full-stack e-commerce solution built with React and Django.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200/8b5cf6/ffffff?text=Project+2" 
+                            class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Task Management App</h5>
+                        <p class="card-text">A collaborative task management application with real-time updates.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200/10b981/ffffff?text=Project+3" 
+                            class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">A beautiful weather dashboard with interactive charts and maps.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Latest Blog Posts</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card blog-card">
+                    <img src="https://via.placeholder.com/350x200/f59e0b/ffffff?text=Blog+Post+1" 
+                            class="card-img-top" alt="Blog Post 1">
+                    <div class="card-body">
+                        <div class="blog-meta mb-2">
+                            <small>
+                                <i class="fas fa-calendar me-1"></i>Dec 15, 2024
+                                <i class="fas fa-user ms-3 me-1"></i>Admin
+                            </small>
+                        </div>
+                        <h5 class="card-title">Getting Started with Django</h5>
+                        <p class="card-text">Learn the fundamentals of Django framework and build your first web application.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <small class="text-muted ms-1">(12)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card blog-card">
+                    <img src="https://via.placeholder.com/350x200/ef4444/ffffff?text=Blog+Post+2" 
+                            class="card-img-top" alt="Blog Post 2">
+                    <div class="card-body">
+                        <div class="blog-meta mb-2">
+                            <small>
+                                <i class="fas fa-calendar me-1"></i>Dec 10, 2024
+                                <i class="fas fa-user ms-3 me-1"></i>Admin
+                            </small>
+                        </div>
+                        <h5 class="card-title">Modern CSS Techniques</h5>
+                        <p class="card-text">Explore the latest CSS features and techniques for modern web development.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <small class="text-muted ms-1">(8)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card blog-card">
+                    <img src="https://via.placeholder.com/350x200/06b6d4/ffffff?text=Blog+Post+3" 
+                            class="card-img-top" alt="Blog Post 3">
+                    <div class="card-body">
+                        <div class="blog-meta mb-2">
+                            <small>
+                                <i class="fas fa-calendar me-1"></i>Dec 5, 2024
+                                <i class="fas fa-user ms-3 me-1"></i>Admin
+                            </small>
+                        </div>
+                        <h5 class="card-title">JavaScript ES6+ Features</h5>
+                        <p class="card-text">Master the latest JavaScript features and improve your coding skills.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <small class="text-muted ms-1">(15)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn-gradient">View All Posts</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="lead mb-5">
+                    Have a project in mind or want to collaborate? I'd love to hear from you!
+                </p>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <i class="fas fa-envelope text-primary fs-1 mb-3"></i>
+                            <h5>Email</h5>
+                            <p class="text-muted">hello@yourportfolio.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <i class="fas fa-phone text-primary fs-1 mb-3"></i>
+                            <h5>Phone</h5>
+                            <p class="text-muted">+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <i class="fas fa-map-marker-alt text-primary fs-1 mb-3"></i>
+                            <h5>Location</h5>
+                            <p class="text-muted">Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
